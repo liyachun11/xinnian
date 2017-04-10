@@ -105,20 +105,25 @@ html{
 }
 .make-Cbox2 span{
 	margin-right: 5px;
+	line-height: 22px;
 }
 .make-Cbox3{
-	width: 65%;
-	line-height: 18px;
+	width: 63%;
 }
 .make-Cbox3 input{
 	border: 1px solid #E2E2E2;
 	border-radius: 2px;
 	text-align: center;
 	width: 48%;
+	outline:none;
+	-webkit-appearance: none;
+	line-height: 18px;
+	font-size:14px;
 }
 .make-btn{
-	width: 12%;
 	background-color: #4F76F9;
+	font-size:14px;
+	line-height: 18px;
 }
 .make-Cbox4{
 	border-top: 1px solid #E0E0E0;
