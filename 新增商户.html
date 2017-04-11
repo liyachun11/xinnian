@@ -16,49 +16,90 @@
       <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    
-   <script type="text/javascript">
-	var ohtml = document.documentElement;
-	getSize();
-
-	window.onresize = function(){
-		getSize();
-	}
-	function getSize(){
-
-		var screenWidth = ohtml.clientWidth;
-		if(screenWidth <= 320){
-			ohtml.style.fontSize = '17.1733px';
-		}else if(screenWidth >= 750){
-			ohtml.style.fontSize = '39.04px';
-		}else{
-			ohtml.style.fontSize = screenWidth/(750/40)+'px';
-		}
-		
-	}
-</script>
+   
   </head>
   <body>
-        <form class="form-inline">
-	      <div id="distpicker5">
-	        <div class="form-group ">
-	          <label class="sr-only" for="province10">Province</label>
-	          <select class="form-control" id="province10"></select>
-	        </div>
-	        <div class="form-group">
-	          <label class="sr-only" for="city10">City</label>
-	          <select class="form-control" id="city10"></select>
-	        </div>
-	        <div class="form-group">
-	          <label class="sr-only" for="district10">District</label>
-	          <select class="form-control" id="district10"></select>
-	        </div>
-	        <div class="form-group">
-	          <label class="sr-only" for="district10">jied</label>
-	          <select class="form-control" id="district10"></select>
-	        </div>
-	      </div>
-        </form>
+  	
+  	<div class="newAdd-box">
+  		<div class="container">
+  			<div class="clearfix newAdd-box2">
+  				<label class="col-xs-3 ">填写名称:</label>
+  				<div class="col-xs-9">
+  					<input type="text" name="" id="" value="" class="form-control"/>
+  				</div>
+  				
+  			</div>
+  			<div class="clearfix newAdd-box2">
+  				<label class="col-xs-3 ">上传logo:</label>
+  				<div class="col-xs-9">
+  					<div class="newAdd-boxlogo">
+  						<img src="img/logoS.png" alt="" / class="newAdd-img">
+  					  <input type="file" name="" id="" value="" class="newAdd-file"/>
+  					</div>
+  					
+  				</div>
+  			</div>
+  			<div class="clearfix newAdd-box2">
+  				<label class="col-xs-3 ">活动简介:</label>
+  				<div class="col-xs-9">
+  				  <input type="text" name="" id="" value="" class="form-control" placeholder="50字以内"/>
+				  </div>
+  			</div>
+  			<div class="clearfix newAdd-box2">
+  				<label class="col-xs-3 ">服务电话:</label>
+  				<div class="col-xs-9">
+  					<input type="text" name="" id="" value="" class="form-control"/>
+  				</div>
+  			</div>
+  			<div class="clearfix newAdd-box2">
+  				<label class="col-xs-3 ">地　　址:</label>
+  				<form class="form-inline col-xs-9">
+			      <div id="distpicker5">
+			        <div class="form-group col-xs-4">
+			          <label class="sr-only" for="province10">Province</label>
+			          <select class="form-control" id="province10"></select>
+			        </div>
+			        <div class="form-group col-xs-4">
+			          <label class="sr-only" for="city10">City</label>
+			          <select class="form-control" id="city10"></select>
+			        </div>
+			        <div class="form-group col-xs-4">
+			          <label class="sr-only" for="district10">District</label>
+			          <select class="form-control" id="district10"></select>
+			        </div>
+			        <div class="form-group ">
+			          <label class="sr-only" for="district10">jied</label>
+			          <select class="form-control" id="district10">
+			          	<option>—街道</option>
+			          </select>
+			        </div>
+			      </div>
+			      <div class="newAdd-form">
+			      	<p>详细地址:</p>
+			      	<textarea class="form-control newAdd-text" rows="2"></textarea>
+			      </div>
+		      </form>
+		      </div>
+		      <div class="clearfix newAdd-box2">
+	  				<label class="col-xs-3 ">展示本店:</label>
+	  				<div class="col-xs-9">
+	  					<div class="newAdd-boximg">
+	  						<img src="img/logoS.png" alt="" / class="newAdd-img">
+	  					  <input type="file" name="" id="" value="" class="newAdd-file"/>
+	  					</div>
+	  					
+	  					<div class="newAdd-form">
+				      	<p>图片描述:</p>
+				      	<textarea class="form-control newAdd-text" rows="2" placeholder="40字以内"></textarea>
+				     </div>
+				      <div class="newAdd-btn">继续添加</div>
+	  				</div>
+	  				
+	  			</div>
+  			</div>
+  	</div>
+  	<div class="bttn">提交</div>
+        
 
 	
 	
@@ -75,7 +116,4 @@
     <script src="js/main.js"></script>
   </body>
 </html>
- <script>
-
-
-</script>
+ 

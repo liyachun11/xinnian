@@ -18,26 +18,6 @@
       <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     
-   <script type="text/javascript">
-	var ohtml = document.documentElement;
-	getSize();
-
-	window.onresize = function(){
-		getSize();
-	}
-	function getSize(){
-
-		var screenWidth = ohtml.clientWidth;
-		if(screenWidth <= 320){
-			ohtml.style.fontSize = '17.1733px';
-		}else if(screenWidth >= 750){
-			ohtml.style.fontSize = '39.04px';
-		}else{
-			ohtml.style.fontSize = screenWidth/(750/40)+'px';
-		}
-		
-	}
-</script>
   </head>
   <body>
       

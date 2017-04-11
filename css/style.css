@@ -4,7 +4,7 @@ body{
 html{
 	/*font-size: 40px;*/
 }
-.zf-box4,.zf-box2,.zf-box3,.make-Cbox1,.make-Cbox6{
+.zf-box4,.zf-box2,.zf-box3,.make-Cbox1,.make-Cbox6,.newAdd-box,.nearby-box,.sjxq-mainbox{
 	background-color: #fff;
 }
 .zf-bg{
@@ -117,13 +117,16 @@ html{
 	width: 48%;
 	outline:none;
 	-webkit-appearance: none;
+	height: 20px;
 	line-height: 18px;
 	font-size:14px;
 }
 .make-btn{
 	background-color: #4F76F9;
 	font-size:14px;
+	height: 20px;
 	line-height: 18px;
+	padding: 0 2%;
 }
 .make-Cbox4{
 	border-top: 1px solid #E0E0E0;
@@ -178,3 +181,215 @@ html{
 	color: #A8A8A8;
 }
 /*收款查询页面结束*/
+/*新增用户页面开始*/
+.form-group{
+	display: inline-block;
+}
+.newAdd-box{
+	margin-top: 12px;
+	padding: 8px 0 20px;
+}
+.newAdd-box2 label{
+	padding: 0;
+	width: 22%;
+	line-height: 40px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: normal;
+	color: #151516;
+}
+.newAdd-box2 .col-xs-9{
+	padding: 5px 0;
+}
+.newAdd-boxlogo{
+	width: 80px;
+	height: 80px;
+	position: relative;
+}
+.newAdd-boxlogo .newAdd-img{
+	width: 80px;
+	height: 80px;
+}
+.newAdd-boxlogo .newAdd-file{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 80px;
+	height: 80px;
+	opacity: 0;
+}
+.newAdd-boximg{
+	width: 120px;
+	height: 120px;
+	position: relative;
+	margin-bottom: 8px;
+}
+.newAdd-boximg .newAdd-img{
+	width: 120px;
+	height: 120px;
+}
+.newAdd-boximg .newAdd-file{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 120px;
+	height: 120px;
+	opacity: 0;
+}
+.newAdd-box2 .form-control{
+	height: 30px;
+	padding: 0 8px;
+}
+
+#distpicker5 .form-group{
+	padding: 0 5px 0 0;
+	margin-bottom: 8px;
+}
+.newAdd-form{}
+.newAdd-form textarea.newAdd-text{
+	height: auto;
+	resize: none;
+}
+.newAdd-btn{
+	width: 40%;
+	text-align: center;
+	border: 1px solid #8CA7FB;
+	font-size: 14px;
+	color: #4d76f9;
+	border-radius: 4px;
+	height: 28px;
+	line-height: 28px;
+	margin-top: 20px;
+	
+}
+.bttn{
+	width: 80%;
+	height: 40px;
+	line-height: 40px;
+	margin: 20px auto;
+	text-align: center;
+	background-color:#4F76F9;
+	font-size: 16px;
+	color: #fff;
+	border-radius: 4px;
+}
+/*新增用户页面结束*/
+/*附近商家页面开始*/
+.nearby-box{
+	margin: 10px 0;
+}
+.neardy-tw .nearby-leftimg{
+	width: 80px;
+	height: 80px;
+}
+.neardy-ul li{
+	padding: 10px 0;
+	border-bottom: 1px solid #F0F0F0;
+}
+.neardy-ul li:last-child{
+	border-bottom: 0;
+}
+.neardy-media{
+	width: 80%;
+}
+.neardy-body{
+	width: 55%;
+	margin-left: 8px;
+}
+.neardy-body h4{
+	font-size: 14px;
+	color: #151516;
+	margin-top:18px;
+}
+.neardy-body p{
+	font-size: 15px;
+	color: #ff8181;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.neardy-ip{
+	text-align: center;
+	margin-top: 13px;
+	width: 14%;
+}
+.neardy-ip i{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background: url(../img/iphonetb.png) center center no-repeat;
+	background-size: 25px 25px;
+	-webkit-background-size: 25px 25px;
+}
+.neardy-ip p{
+	margin-bottom: 0;
+	word-break:break-all;
+}
+/*附近商家页面结束*/
+/*商家详情开始*/
+.sjxq-bg{
+	width: 100%;
+    height: 150px;
+    background: url(../img/xq-bg.jpg) 0 0 no-repeat;
+    -webkit-background-size: 100% 150px;
+    background-size: 100% 150px;
+    padding-top: 28px;
+}
+.sjxq-box{
+	margin-bottom: 28px;
+}
+.sjxq-tongz{
+	padding: 16px 0;
+	border-top: 1px dashed rgba(255,255,255,.4);
+}
+.sjxq-tongz i{
+	display: inline-block;
+	width: 21px;
+	height: 18px;
+	background: url(../img/tongzhi.png) left center no-repeat;
+	background-size: 21px 18px;
+	-webkit-background-size: 21px 18px;
+	float: left;
+}
+.sjxq-tongz marquee{
+	font-size: 12px;
+	color: #fff;
+	display: inline-block;
+	width: 90%;
+	float: left;
+	margin-left: 2%;
+}
+.sjxq-img img{
+	width: 100%;
+	margin-bottom: 12px;
+}
+.sjxq-mainbox{
+	margin: 12px 0 60px;
+}
+.sjxq-ul{
+	margin-bottom: 0;
+}
+.sjxq-ul li{
+	border-bottom: 1px solid #EEEEEE;
+}
+.sjxq-footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #464646;
+	padding: 5px 15px;
+}
+.sjxq-footer img{
+	width: 32px;
+	height: 32px;
+	float: left;
+}
+.sjxq-footer span{
+	color: #fff;
+	display: inline-block;
+	width: 80%;
+	margin: 6px 0 0 8px;
+	float: left;
+}
+/*商家详情结束*/
