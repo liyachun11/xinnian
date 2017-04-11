@@ -117,16 +117,19 @@ html{
 	width: 48%;
 	outline:none;
 	-webkit-appearance: none;
-	height: 20px;
-	line-height: 18px;
+	height: 22px;
+	line-height: 22px;
 	font-size:14px;
+	padding: 0;
 }
 .make-btn{
 	background-color: #4F76F9;
 	font-size:14px;
-	height: 20px;
-	line-height: 18px;
+	height: 22px;
+	line-height: 22px;
 	padding: 0 2%;
+	border-radius: 2px;
+	color: #fff;
 }
 .make-Cbox4{
 	border-top: 1px solid #E0E0E0;
@@ -239,6 +242,7 @@ html{
 .newAdd-box2 .form-control{
 	height: 30px;
 	padding: 0 8px;
+	-webkit-appearance: none;
 }
 
 #distpicker5 .form-group{
@@ -249,6 +253,7 @@ html{
 .newAdd-form textarea.newAdd-text{
 	height: auto;
 	resize: none;
+	-webkit-appearance: none;
 }
 .newAdd-btn{
 	width: 40%;
@@ -258,7 +263,7 @@ html{
 	color: #4d76f9;
 	border-radius: 4px;
 	height: 28px;
-	line-height: 28px;
+	line-height: 26px;
 	margin-top: 20px;
 	
 }
