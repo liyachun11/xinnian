@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="538799b3-8d21-4bd7-b96b-ebe7acda8048" name="localhost" url="http://192.168.16.106:8080/xinnian">
+        <fileTransfer port="0" mountedRoot="E:\工作区间\微信商城\xinnian" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
